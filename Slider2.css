@@ -1,0 +1,24 @@
+.slider-container2 {
+  width: 95%; /* Set the width of the container */
+  height: 13rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.slider-text2 {
+  display: inline-block;
+  animation: slide2 20s linear infinite; /* Adjust the animation duration as needed */
+}
+.slider-text2 p {
+  font-family: Inter;
+  font-size: 5.5rem;
+  font-weight: 700;
+}
+@keyframes slide2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
