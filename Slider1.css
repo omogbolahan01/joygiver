@@ -22,3 +22,10 @@
     transform: translateX(0);
   }
 }
+@media screen and (max-width: 615px) {
+  .slider-text p {
+    font-family: Inter;
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+}

@@ -725,7 +725,9 @@ footer {
   font-weight: 400;
 }
 .create-area {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding-top: 3rem;
   padding-bottom: 5rem;
   /* display: grid;
@@ -1215,5 +1217,702 @@ textarea {
   font-weight: 400;
   color: #cea3a3;
 }
-@media screen and (min-width: 1500px) {
+@media screen and (max-width: 1250px) {
+  .first-text h2 {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+  .first-text p {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+  .des-all {
+    width: 100%;
+  }
+  .des-1 {
+    width: 100%;
+  }
+  .des-2 {
+    width: 100%;
+  }
+  .des-1 img {
+    width: 100%;
+  }
+  .des-2 img {
+    width: 100%;
+  }
+  .ddd {
+    top: -14rem;
+  }
+  .create-1 {
+    height: 100%;
+    width: 100%;
+    /* padding-bottom: 5rem; */
+  }
+  .create-1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .blogg h2 {
+    padding-right: 33.5rem;
+  }
+  .bf1 {
+    padding-right: 20rem;
+  }
+  .eembark {
+    padding: 5rem;
+  }
+  .partner-two {
+    background-size: cover;
+
+    padding-bottom: 0;
+  }
+  .partner-two h2 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .partner-two p {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .formss {
+    padding-bottom: 5rem;
+  }
+  .cfirst p {
+    padding-right: 15rem;
+    padding-left: 15rem;
+  }
+  .ddd2 {
+    top: -14rem;
+    left: 1rem;
+  }
+  .tfirst p {
+    padding-right: 15rem;
+    padding-left: 15rem;
+  }
+  /* .team-img {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    /* top: -1rem; */
+  /* }
+  .team-img img {
+    width: 100%;
+  } */
+  .absolutee {
+    width: 2.5rem;
+    top: 39.5rem;
+  }
+  .absolutee img {
+    width: 100%;
+  }
+  .about-first {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+  .contact-first {
+    gap: 3rem;
+  }
+  .form--input {
+    width: 25rem;
+  }
+  input,
+  textarea {
+    width: 25rem;
+  }
+  .bbb {
+    width: 25rem;
+  }
+  .bbb button {
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .first-text h2 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .first-text p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .count-area {
+    gap: 2rem;
+  }
+
+  .area-1 {
+    width: 25%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .area-2 {
+    width: 25%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .area-3 {
+    width: 25%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .area-4 {
+    width: 25%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .count-area p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .donate-all {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 1.5rem;
+  }
+  .donate-1 h3 {
+    padding-right: 0;
+  }
+  .count-flex {
+    padding-left: 2rem;
+    gap: 1rem;
+  }
+  .ddd {
+    top: -11rem;
+  }
+  .unveil-one h3 {
+    padding-right: 1rem;
+  }
+  /* .unveil-images {
+    width: 50rem;
+  } */
+  .u-one {
+    width: 25%;
+  }
+  .u-one img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .blog-1 {
+    margin-left: 2rem;
+  }
+  .blogg {
+    padding-left: 2rem;
+  }
+  .bloggg {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .blog-detail {
+    width: 25%;
+  }
+  .blog-detail img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .blogg h2 {
+    padding-right: 13.5rem;
+  }
+  .bf1 {
+    padding-right: 8rem;
+  }
+  .eembark {
+    padding: 2rem;
+  }
+  .embark-1 {
+    padding-right: 2rem;
+  }
+  .cfirst p {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+  .ddd2 {
+    top: -11rem;
+    left: 1rem;
+  }
+  .tfirst p {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+  .team-img {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team-img img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .absolutee {
+    width: 2.5rem;
+    top: 31.5rem;
+  }
+  .team-area {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .tteem {
+    width: 25%;
+  }
+  .tteem img {
+    width: 100%;
+  }
+  .form--input {
+    width: 20rem;
+  }
+  input,
+  textarea {
+    width: 20rem;
+  }
+  .bbb {
+    width: 20rem;
+  }
+  .bbb button {
+    width: 20rem;
+  }
+  .contact-first {
+    gap: 1rem;
+    padding-left: 1.8rem;
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .cause-img {
+    width: 100%;
+    top: -2.5rem;
+  }
+  .cause-img img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .ddd2 {
+    top: -10rem;
+    left: 1rem;
+  }
+  .partner-image {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 1rem;
+  }
+  .absolutee {
+    width: 2.5rem;
+    top: 30rem;
+  }
+  .count-area {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .form--input {
+    width: 18rem;
+  }
+  input,
+  textarea {
+    width: 18rem;
+  }
+  .bbb {
+    width: 18rem;
+  }
+  .bbb button {
+    width: 18rem;
+  }
+}
+@media screen and (max-width: 615px) {
+  .nav-items {
+    display: none;
+  }
+  .bar {
+    width: 15px;
+    height: 2px;
+    background-color: #c85d1b;
+    margin: 2px 0;
+  }
+  nav {
+    color: #000000;
+  }
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    padding-right: 3rem;
+  }
+
+  .nav-items.open {
+    display: flex;
+    padding-bottom: 2rem;
+  }
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    background-color: #ffffff;
+    position: absolute;
+    padding-top: 1rem;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 100%;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  .nav-item {
+    margin-bottom: 2rem;
+  }
+  .first-text h2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 3rem;
+  }
+  .first-text p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .home-second {
+    flex-direction: column;
+  }
+  .health-1 {
+    width: 100%;
+  }
+  .health-2 {
+    width: 100%;
+  }
+  .health-3 {
+    width: 100%;
+  }
+  .health-4 {
+    width: 100%;
+  }
+  .image-des {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .des-text h2 {
+    padding-right: 0;
+  }
+  .des-text p {
+    padding-right: 0;
+  }
+  .count-area {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .area-1 {
+    width: 50%;
+  }
+  .area-1 p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .area-2 {
+    width: 50%;
+  }
+  .area-2 p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .area-3 {
+    width: 50%;
+  }
+  .area-3 p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .area-4 {
+    width: 50%;
+  }
+  .area-4 p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .donate-all {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 2rem;
+  }
+  .count-flex {
+    flex-direction: column;
+  }
+  .count-f1 {
+    width: 100%;
+  }
+  .ddd {
+    top: -19.5rem;
+  }
+  .count-f2 {
+    width: 100%;
+  }
+  .count-f3 {
+    width: 100%;
+  }
+  .unveil {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .unveil-side {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2rem;
+  }
+  .unveil-images {
+    flex-direction: column;
+  }
+  .u-one {
+    width: 100%;
+  }
+  .create-area {
+    display: flex;
+    flex-direction: column;
+  }
+  .create-2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .blogg h2 {
+    padding-right: 4.5rem;
+  }
+  .bf1 {
+    padding-right: 4rem;
+  }
+
+  .bf2 {
+    padding-right: 1.5rem;
+  }
+  .bloggg {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-detail {
+    width: 100%;
+  }
+  .embark-2 {
+    display: none;
+  }
+  .iggg {
+    width: 6rem;
+  }
+  .iggg img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .partner-two h2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .partner-two p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .form-subs {
+    width: 20rem;
+  }
+  .form-btn {
+    right: -6.5rem;
+    top: -1.8rem;
+  }
+  .nav2 {
+    padding-left: 1.8rem;
+  }
+  .site-logo2 {
+    width: 3.5rem;
+  }
+  .site-logo2 img {
+    width: 100%;
+  }
+  .nav-itemss {
+    gap: 1rem;
+    margin-right: 1.8rem;
+  }
+  .nav-itemss a {
+    font-size: 0.6rem;
+  }
+  .empty {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .cfirst p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .cause-first {
+    height: 24.5rem;
+  }
+  .countt {
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .counttt {
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .ddd2 {
+    top: -16.5rem;
+  }
+  .tfirst {
+    padding-top: 2.5rem;
+  }
+  .tfirst p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .absolutee {
+    display: none;
+  }
+  .absolutee2 {
+    width: 3rem;
+  }
+  .absolutee2 img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .tteem-center h3 {
+    font-size: 0.8rem;
+  }
+  .about-first {
+    display: flex;
+    padding-right: 2rem;
+  }
+  .first-d {
+    font-size: 2.5rem;
+  }
+  .absolue3 {
+    width: 3rem;
+  }
+  .absolue3 img {
+    width: 100%;
+  }
+  .about--second {
+    flex-direction: column;
+  }
+  .contact-first {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-1 h3 {
+    font-size: 3rem;
+  }
+  .contact-1 p {
+    padding-right: 2rem;
+  }
+  .contact--1 h3 {
+    font-size: 0.8rem;
+  }
+  .contact-way {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 300px) {
+  .count-flex {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .ddd {
+    top: -10.5rem;
+  }
+  .unveil-side {
+    padding-right: 0;
+  }
+  .create-2 h3 {
+    font-size: 1.8rem;
+  }
+  .blogg h2 {
+    padding-right: 2rem;
+    font-size: 1.8rem;
+  }
+  .bf1 {
+    padding-right: 2rem;
+    font-size: 0.65rem;
+  }
+  .bf2 {
+    font-size: 0.55rem;
+    padding-right: 1rem;
+  }
+  .eembark {
+    padding: 1rem;
+  }
+  .embark-1 h3 {
+    font-size: 1.8rem;
+  }
+  .embark-1 p {
+    font-size: 0.6rem;
+    padding-right: 1.5rem;
+  }
+  .eeee {
+    font-size: 0.65rem;
+    padding: 0.5rem 1rem;
+  }
+  .eeeee {
+    font-size: 0.65rem;
+    padding: 0.5rem 1rem;
+  }
+  .partner-two h2 {
+    font-size: 1.8rem;
+  }
+  .form-subs {
+    width: 12rem;
+  }
+  .form-btn {
+    font-size: 0.65rem;
+    right: -2.5rem;
+  }
+  .nav2 {
+    padding-left: 1rem;
+  }
+  .nav-itemss {
+    margin-right: 1rem;
+  }
+  .nav-itemss a {
+    font-size: 0.4rem;
+  }
+  .ddd2 {
+    top: -10.5rem;
+  }
+  .team-area {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .tteem-center h3 {
+    font-size: 0.6rem;
+  }
+  .tteem-center p {
+    font-size: 0.5rem;
+  }
+  .first-d {
+    padding-left: 1rem;
+    font-size: 1.8rem;
+  }
+  .about--second {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* .form--input {
+    width: 12rem;
+  } */
+  .second-1 {
+    padding: 1.5rem 1rem;
+  }
+  .form--input {
+    width: 12.5rem;
+  }
+  input,
+  textarea {
+    width: 12.5rem;
+  }
+  .bbb {
+    width: 12.5rem;
+  }
+  .bbb button {
+    width: 12.5rem;
+  }
+  .cause-first {
+    height: 22.5rem;
+  }
+  .site-logo {
+    margin-left: 1rem;
+  }
 }

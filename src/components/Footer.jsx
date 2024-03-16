@@ -19,11 +19,21 @@ export default function Footer() {
       <div className="partnerss">
         <h3>Our partner</h3>
         <div className="partner-image">
-          <img src="/images/Frame (1).png" alt="" />
-          <img src="/images/Frame 70.png" alt="" />
-          <img src="/images/logo-50.png" alt="" />
-          <img src="/images/logo-55.png" alt="" />
-          <img src="/images/logo-75.png" alt="" />
+          <div className="iggg">
+            <img src="/images/Frame (1).png" alt="" />
+          </div>
+          <div className="iggg">
+            <img src="/images/Frame 70.png" alt="" />
+          </div>
+          <div className="iggg">
+            <img src="/images/logo-50.png" alt="" />
+          </div>
+          <div className="iggg">
+            <img src="/images/logo-55.png" alt="" />
+          </div>
+          <div className="iggg">
+            <img src="/images/logo-75.png" alt="" />
+          </div>
         </div>
       </div>
       <div>
